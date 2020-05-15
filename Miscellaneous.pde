@@ -45,7 +45,7 @@ class Star {
 
   Star() {
     x = random(width) - width * 3 / 2 + width * (random(3) - 1);
-    y = random(height) - height * 5 / 2 + height * (random(4) - 2);
+    y = random(height) - height * 5 / 2 + height * (random(5) - 3);
     radius = random(5);
   }
 
